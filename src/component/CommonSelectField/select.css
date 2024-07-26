@@ -1,0 +1,27 @@
+.select-field-wrapper .form-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1e2125;
+  margin: 0;
+}
+
+.select-field-wrapper .select-field > div {
+  /* background: #fff; */
+  border-radius: 8px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+.select-field-wrapper .select-field.login > div {
+  box-shadow: 0px 0px 120px 11px rgba(0, 0, 0, 0.05);
+}
+
+.select-field-wrapper .select-field.required-field > div.css-1pahdxg-control {
+  border: 1px solid #bf202f;
+}
+
+.select-field-wrapper .select-field.required-field > div.css-yk16xz-control {
+  border: 1px solid #bf202f;
+}

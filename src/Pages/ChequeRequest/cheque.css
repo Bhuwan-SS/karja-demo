@@ -1,0 +1,19 @@
+.cheque-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cheque-wrapper .note {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.cheque-wrapper .note i {
+  color: #bf202f;
+}

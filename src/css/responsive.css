@@ -1,0 +1,266 @@
+@media (max-width: 1179px) and (min-width: 992px) {
+  /*____landing-page______*/
+  .landing-wrap .landing-block .landing-content h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+  }
+  /*________login-card____________*/
+  .modal-dialog {
+    margin: 1rem auto 0;
+    width: 76rem;
+  }
+  .l-sidebar {
+    height: 100%;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  /*_____landing-page__________*/
+  .landing-wrap {
+    height: 100%;
+  }
+  .landing-wrap .landing-block {
+    margin-bottom: 30px;
+  }
+  .landing-wrap .landing-block .landing-content h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: auto 1rem;
+  }
+
+  /*________login-card____________*/
+  .modal-dialog {
+    margin: 10rem auto 0 !important;
+  }
+
+  /*__________acount-head____________*/
+  .account-open .kyc-details .kyc-block-2 {
+    padding: 0 0.5rem;
+  }
+  /*________header-top__________*/
+  .kyc-wrap .kyc-details .kyc-block-2 {
+    padding: 0.5rem 1rem;
+  }
+  .kyc-wrap .kyc-details .kyc-block-2 .kyc-form .sign-form .file-upload {
+    margin: 0 auto;
+  }
+  .kyc-wrap .kyc-details .kyc-block-2 .kyc-form .upload-file {
+    text-align: center;
+  }
+
+  /*__________index-php_______*/
+  .header-user-info {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .header-icons-group .c-header-icon:last-child {
+    padding: 0;
+    padding-right: 15px;
+  }
+  .l-sidebar {
+    height: 100%;
+  }
+  .account-open-2 .img-upload label {
+    width: auto !important;
+  }
+  .account-open-2 .file-upload-btn {
+    width: auto !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /*_____________*/
+  .site-header .site-button {
+    background: #234d9a;
+    color: #fff;
+    margin-right: 4rem;
+  }
+  .site-header .col-lg-6 {
+    margin: 0 auto;
+  }
+  .site-header .col-lg-6 .site-login {
+    margin-top: 12px;
+  }
+  .site-header .site-button {
+    margin-right: 8rem;
+  }
+  /*_______landing_page______________*/
+  .landing-wrap {
+    height: 100%;
+  }
+  .landing-wrap .landing {
+    padding-top: 10.75rem;
+  }
+  .landing-wrap .landing-block {
+    margin-bottom: 12px;
+  }
+  .landing-wrap .landing-block .landing-content h1 {
+    font-size: 26px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin: auto 0.5rem;
+  }
+  /*_____modal_______*/
+  .modal.show .modal-dialog {
+    margin: 0;
+    margin-top: 2.5rem;
+  }
+  .modal-body,
+  .modal .modal-header {
+    padding: 2rem 1rem 1rem;
+  }
+  .modal-dialog .modal-footer {
+    padding: 0 0 1rem;
+  }
+  .modal-footer > button {
+    width: 148px;
+    font-size: 18px;
+    height: 48px;
+  }
+  .modal .modal-header .modal-head span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  /*_________________kyc-header__________*/
+  .account-head .header-icons-group h2 {
+    font-size: 24px;
+    color: #2862cc;
+    margin-top: 17px;
+  }
+  .kyc-header .header-icons-group {
+    justify-content: space-between;
+  }
+  .account-open .kyc-details .kyc-block-2 {
+    padding: 0;
+  }
+  .account-open .fade-wrap .fade-text h2 {
+    font-size: 16px;
+  }
+  .account-open .form-check-inline {
+    margin-right: 0.1rem;
+  }
+  .kyc-wrap
+    .kyc-details
+    .kyc-block-2
+    .kyc-form
+    .form-group
+    .form-check.date-inline {
+    width: 100%;
+  }
+
+  /*__________table________*/
+  .table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .kyc-wrap .kyc-details .kyc-block-2 {
+    padding: 0 12px;
+  }
+  .kyc-wrap .kyc-details .kyc-block-2 .kyc-form .finger-wrap {
+    /*flex-wrap: wrap;*/
+    display: block;
+    border: none;
+  }
+  .kyc-wrap
+    .kyc-details
+    .kyc-block-2
+    .kyc-form
+    .finger-wrap
+    .file-upload:first-child {
+    border: 1px solid #434343;
+    margin-bottom: 12px;
+  }
+  .kyc-wrap .kyc-details .kyc-block-2 .kyc-form .finger-wrap .file-upload {
+    width: 266px;
+    height: auto;
+    border: 1px solid #434343;
+  }
+  .kyc-wrap .kyc-details .kyc-block-2 .kyc-form .sign-form .file-upload {
+    width: auto;
+  }
+  .kyc-wrap .kyc-details .kyc-block-2 .kyc-form .form-group span h3 {
+    margin: 0 4.9rem;
+  }
+
+  /*__________header-top___________*/
+  .kyc-header {
+    padding: 2.5rem 0;
+  }
+  .kyc-header .user-info h5 {
+    font-size: 16px;
+    color: #4174d4;
+  }
+  .header-user-info .user-info p {
+    color: #121212;
+    font-size: 14px;
+  }
+  .header-user-info {
+    margin: 0;
+    width: 50%;
+    text-align: center;
+  }
+  .c-header-icon {
+    padding: 0;
+    width: 50%;
+  }
+  .kyc-header .header-icons-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  /*_________index.php___________*/
+  .table-responsive {
+    margin-top: 10rem !important;
+  }
+  .l-header__inner {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+  .l-header__inner .c-header-icon {
+    padding: 0;
+    width: 15%;
+  }
+  .l-header__inner .has-dropdown {
+    width: 85%;
+  }
+  .l-header__inner .header-icons-group {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 0 15px; */
+    margin-top: 15px;
+  }
+  .l-header__inner .header-icons-group .has-search {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .l-sidebar {
+    height: 100%;
+  }
+
+  .account-open-2 .file-upload-btn {
+    width: auto !important;
+  }
+  .captcha-wrap {
+    flex-wrap: wrap;
+  }
+
+  .captcha-wrap .site-button {
+    margin-top: 15px;
+    margin-left: 0 !important ;
+  }
+}
+
+@media (max-width: 414px) {
+  .site-header .site-button {
+    margin-right: 6rem;
+  }
+}
+@media (max-width: 360px) {
+  .site-header .site-button {
+    margin-right: 4rem;
+  }
+}

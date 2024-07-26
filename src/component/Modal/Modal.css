@@ -1,0 +1,55 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+  }
+  .display-block {
+    display: block;
+  }
+  .display-none {
+    display: none;
+  }
+  
+  .modal .modal-content {
+    border-radius: 8px;
+  }
+  
+  .modal .modal-header {
+    background: #ffffff;
+    border: 1px solid #cacbcf;
+    border-radius: 8px 8px 0 0;
+    padding: 16px 20px;
+    align-items: center;
+  }
+  
+  .modal .modal-header h5 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.32px;
+    color: #1e2125;
+  }
+  
+  .modal .modal-header button {
+    background: transparent;
+    border: none;
+    outline: 0;
+  }
+  
+  .modal .modal-content .modal-body {
+    background: #f4f7fa;
+    border-radius: 8px;
+  }
+  
+  @media (min-width: 1200px) {
+    .modal-xl {
+      /* max-width: 1140px; */
+      max-width: 1520px;
+    }
+  }
