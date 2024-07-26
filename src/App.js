@@ -13,9 +13,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "dropify/dist/js/dropify.min.js";
 import "react-toastify/dist/ReactToastify.css";
 import "tippy.js/dist/tippy.css";
-import PublicRoutes from "./Routes/PublicRoutes";
 import PrivateRoutes from "./Routes/PrivateRoutes";
-import { useSelector } from "react-redux";
 
 function App() {
   return (

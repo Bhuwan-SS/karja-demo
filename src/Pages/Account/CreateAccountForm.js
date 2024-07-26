@@ -18,7 +18,6 @@ import { AsyncPaginate } from "react-select-async-paginate";
 import Modal from "../../component/Modal/Modal";
 import PlaceFingerprint from "./PlaceFingerprint";
 import axiosInstance from "../../utils/axios";
-import AccountPDF from "./AccountPdf/AccountPDF";
 import Loader from "../../component/Loader";
 import { dateFormater } from "../../utils/dateFormater";
 import { successFunction } from "../../component/Alert";
